@@ -1,0 +1,67 @@
+name: vidforge
+description: A modern, elegant FFmpeg GUI for video transcoding, editing, and batch processing.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+
+  # FFmpeg (Mobile + macOS)
+  ffmpeg_kit_flutter_full_gpl: ^6.0.3
+
+  # File Operations
+  file_picker: ^6.1.1
+  desktop_drop: ^0.4.4
+  share_plus: ^7.2.1
+  path: ^1.8.3
+
+  # Media
+  video_player: ^2.8.2
+  video_thumbnail: ^0.5.3
+
+  # UI Components
+  flutter_animate: ^4.3.0
+  percent_indicator: ^4.2.3
+
+  # Desktop
+  window_manager: ^0.3.8
+
+  # Utilities
+  uuid: ^4.2.2
+  intl: ^0.18.1
+  equatable: ^2.0.5
+  collection: ^1.18.0
+
+  # Platform Info
+  package_info_plus: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+
+  # Linting
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
